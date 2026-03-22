@@ -59,13 +59,13 @@ export default function Skills() {
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-fuchsia-500/10 rounded-full blur-[120px] -z-10 animate-pulse"></div>
 
       <div className="max-w-7xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="heading-gradient text-4xl mb-4">Core Competencies</h2>
+          <h2 className="heading-gradient text-4xl mb-4">Skills</h2>
           <div className="h-1 w-20 bg-primary-500 mx-auto rounded-full"></div>
         </motion.div>
 
@@ -82,7 +82,7 @@ export default function Skills() {
               <h3 className="text-xl font-bold text-white border-b border-white/10 pb-4 line-clamp-2 md:line-clamp-1 truncate" title={category.category}>
                 {category.category}
               </h3>
-              
+
               <div className="flex flex-col gap-5">
                 {category.skills.map((skill, sIdx) => (
                   <motion.div key={sIdx} variants={itemVariants} className="group">
@@ -94,7 +94,7 @@ export default function Skills() {
                       <span className="text-slate-500 text-sm whitespace-nowrap">{skill.progress}</span>
                     </div>
                     <div className="h-2 w-full bg-dark-900 rounded-full overflow-hidden border border-white/5">
-                      <motion.div 
+                      <motion.div
                         initial={{ width: 0 }}
                         whileInView={{ width: skill.progress }}
                         viewport={{ once: true }}
