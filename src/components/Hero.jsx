@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { HiDownload } from 'react-icons/hi';
+import profileImg from '../assets/profile.jpg';
 
 export default function Hero() {
   return (
@@ -78,7 +79,7 @@ export default function Hero() {
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-white/10 overflow-hidden glass shadow-2xl z-10">
             {/* Replace src with actual image */}
             <div className="w-full h-full bg-gradient-to-br from-dark-800 to-dark-900 flex items-center justify-center">
-              <span className="text-slate-500 font-medium">Profile Picture</span>
+              <img src={profileImg} alt="Profile" className="w-full h-full object-cover" />
             </div>
           </div>
         </motion.div>
