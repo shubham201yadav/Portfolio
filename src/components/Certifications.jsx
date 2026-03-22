@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 // Mock data representing 6 image cards.
 // They use placeholder images which can be replaced with real certificates later.
 const certifications = [
-  { id: 1, image: 'https://drive.google.com/file/d/19CNzAhDrgHfEUpk-zwOBhss_0OA5-030/view?usp=drive_link', title: 'Generative AI' },
+  { id: 1, image: 'https://drive.google.com/file/d/19CNzAhDrgHfEUpk-zwOBhss_0OA5-030/view', title: 'Generative AI' },
   { id: 2, image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop', title: 'Full Stack Web Development' },
   { id: 3, image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop', title: 'AWS Cloud Practitioner' },
   { id: 4, image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop', title: 'React Performance Optimization' }
