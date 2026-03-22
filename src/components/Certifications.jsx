@@ -7,9 +7,8 @@ const certifications = [
   { id: 1, image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop', title: 'Data Structures and Algorithms' },
   { id: 2, image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop', title: 'Full Stack Web Development' },
   { id: 3, image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop', title: 'AWS Cloud Practitioner' },
-  { id: 4, image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop', title: 'React Performance Optimization' },
-  { id: 5, image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop', title: 'Agile Software Development' },
-  { id: 6, image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop', title: 'MongoDB Developer certification' }
+  { id: 4, image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop', title: 'React Performance Optimization' }
+  
 ];
 
 export default function Certifications() {
